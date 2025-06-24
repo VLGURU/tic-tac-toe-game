@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Крестики-нолики</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Крестики-нолики</h1>
+    
+    <div class="scoreboard">
+        <div class="score">
+            <div>Крестики</div>
+            <div class="score-value x-score" id="x-score">0</div>
+        </div>
+        <div class="score">
+            <div>Нолики</div>
+            <div class="score-value o-score" id="o-score">0</div>
+        </div>
+    </div>
+
+    <div class="game-container">
+        <div class="status" id="status">Ход крестиков</div>
+        <div class="board" id="board"></div>
+        <button class="restart-btn" id="restart-btn">Новая игра</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
